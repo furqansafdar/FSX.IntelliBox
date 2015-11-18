@@ -1,0 +1,29 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:toolkit="http://schemas.xceed.com/wpf/xaml/toolkit" 
+    xmlns:local="clr-namespace:FSX.Windows.Controls">
+    
+    <Style TargetType="{x:Type local:IntellisenseBox}">
+        <!--<Setter Property="Block.Margin" Value="0"/>
+        <Setter Property="TextElement.FontFamily" Value="Courier New"/>
+        <Setter Property="TextElement.FontSize" Value="12"/>-->
+        <!--Text="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Text}"-->
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:IntellisenseBox">
+                    <Grid>
+                        <local:IntelliRichTextBox x:Name="richTextBox" 
+                                Text="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Text, UpdateSourceTrigger=PropertyChanged}"
+                                ScrollViewer.VerticalScrollBarVisibility="Auto">
+                            <toolkit:RichTextBox.TextFormatter>
+                                <!--<toolkit:PlainTextFormatter />-->
+                                <local:IntelliRichTextBoxFormatter />
+                            </toolkit:RichTextBox.TextFormatter>
+                        </local:IntelliRichTextBox>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

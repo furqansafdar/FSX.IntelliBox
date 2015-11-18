@@ -1,0 +1,11 @@
+﻿<Window x:Class="FSX.IntelliBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:fsx="http://schema.fsxstudio.com/xaml"
+        xmlns:local="clr-namespace:FSX.IntelliBox"
+        Title="FSX.IntelliBox" Height="300" Width="500">
+    <Grid>
+        <fsx:IntellisenseBox 
+            Intellisense="{Binding IntellisenseList}" />
+    </Grid>
+</Window>

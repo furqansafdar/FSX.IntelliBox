@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSX.IntelliBox", "FSX.IntelliBox\FSX.IntelliBox.csproj", "{9E4CE56B-ED09-41F7-9C6D-8780994F3C74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSX.Windows.Controls", "FSX.Windows.Controls\FSX.Windows.Controls.csproj", "{8C847A2D-D01C-459D-89FB-15838C699493}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E4CE56B-ED09-41F7-9C6D-8780994F3C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4CE56B-ED09-41F7-9C6D-8780994F3C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4CE56B-ED09-41F7-9C6D-8780994F3C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4CE56B-ED09-41F7-9C6D-8780994F3C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C847A2D-D01C-459D-89FB-15838C699493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C847A2D-D01C-459D-89FB-15838C699493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C847A2D-D01C-459D-89FB-15838C699493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C847A2D-D01C-459D-89FB-15838C699493}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
