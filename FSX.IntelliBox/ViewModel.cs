@@ -1,8 +1,6 @@
-﻿using System;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using FSX.Windows.Controls;
-using System.Collections.Generic;
 
 namespace FSX.IntelliBox
 {
